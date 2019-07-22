@@ -2,7 +2,6 @@ from player import *
 
 import random
 
-
 #GAME CODES:
 # 0 -> no ship, unguessed
 # 1 -> ship, unguessed

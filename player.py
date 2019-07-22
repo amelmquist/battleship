@@ -20,7 +20,7 @@ if(x == 1 and y==2): #this says: "if x equals 1 and y equals 2, do the following
     pass #pass just says "we are not going to do anything here"
 
 #"Print statement"
-x = 10
+x = 11 % 2
 print("This is a print statement. The value of X is:", x) #words go in quotes, variables go by themselves
 
 
@@ -36,6 +36,10 @@ def take_turn():
     while(already_guessed(x_guess,y_guess)):
             x_guess = random_location()
             y_guess = random_location()
+
+
+
+
 
     # This is where we commit to a final decision for a guess location
     return (x_guess,y_guess)
