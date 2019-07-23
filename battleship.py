@@ -20,7 +20,7 @@ def print_board():
     print("=== GAME BOARD ===")
     for i in range(OFFICIAL_X_DIM):
         for j in range(OFFICIAL_Y_DIM):
-            print(game_board[i][j], end =" ")
+            print(game_board[i][j]),
         print("")
 
 def initialize_board():
